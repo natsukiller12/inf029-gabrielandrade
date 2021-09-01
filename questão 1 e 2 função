@@ -9,7 +9,7 @@ int soma(int a,int b){
 }
 int subtrai(int a,int b,int c){
 	int res;
-	res=a-b-c;
+	res= a- b- c;
 	return res;
 }
 int main() {

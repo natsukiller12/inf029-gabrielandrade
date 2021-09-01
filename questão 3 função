@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+int fatorial(int n){
+	int fat;
+	 for(fat = 1; n > 1; n = n - 1)
+  {      
+      fat = fat * n;
+  }
+
+	return fat;
+}
+
+int main() {
+	int num1,resut1;
+	scanf("%d", &num1);
+
+	resut1=fatorial(num1);
+	printf("%d\n",resut1);
+
+	return 0;
+}
+

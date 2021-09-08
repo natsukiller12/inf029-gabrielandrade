@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#define tam 10
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+void ler3numeros(int vet[]){
+	int i;
+	 for(i=0; i<3; i++){
+	 	scanf("%d", &vet[i]);
+	 }
+}
+int main(){
+	int vetor[tam];
+	printf("insira tres valores\n");
+	ler3numeros(vetor);
+	printf("primeiro valor: %d\n", vetor[0]);
+	printf("segundo valor: %d\n", vetor[1]);
+	printf("terceiro valor: %d\n", vetor[2]);
+	return 0;
+}

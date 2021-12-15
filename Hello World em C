@@ -5,6 +5,6 @@
 //inf029 - renato
 
 int main(int argc, char *argv[]) {
-	printf("hello world");
-	return 0;
+printf("hello world");
+return 0;
 }

@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+// AT01
+//aluno: gabriel siddhartha lacerda andrade
+//inf029 - renato
+
+int main(int argc, char *argv[]) {
+	printf("hello world");
+	return 0;
+}
